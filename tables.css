@@ -1,0 +1,289 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1{font-size:25px;text-align:center;padding:30px 0px;}
+/*-----------------------------first---------------------------------*/
+.first .mytable th {
+font-size: 20px;
+font-weight: normal;
+color: #039;
+border-bottom: 2px solid #039;
+padding: 10px 50px 10px 0px;
+}
+.first .mytable tbody td{
+	padding: 10px 50px 10px 0px;
+	color: #669;
+}
+.first .mytable tbody tr:hover td{
+color: red;
+}
+.first #mytable2 tbody tr{
+	border-bottom: 1px solid #ccc;
+}
+
+/*---------------------------second-----------------------------------*/
+.second .mytable thead th{
+font-size: 20px;
+border-bottom: 2px solid #6678b1;
+border-right: 30px solid #fff;
+border-left: 30px solid #fff;
+color: #039;
+padding: 10px 50px 10px 0px;
+text-align:left;
+}
+.second .mytable tbody td{
+border-right: 30px solid #fff;
+border-left: 30px solid #fff;
+color: #669;
+padding: 10px 50px 10px 0px;
+}
+.second #mytable2{display:none;}
+
+/*---------------------third---------------------------------------*/
+.third .mytable th{
+font-size: 20px; 
+font-weight: normal;
+background: #b9c9fe;
+border-top: 4px solid #aabcfe;
+border-bottom: 1px solid #fff;
+color: #039;
+padding: 10px 30px 10px 30px;
+text-align:left;
+}
+.third .mytable tbody  td {
+background: #e8edff;
+border-bottom: 1px solid #fff;
+color: #669;
+border-top: 1px solid transparent;
+padding: 10px 30px 10px 30px;
+}
+.third #mytable1 tbody tr:hover td{
+background-color: #aabcfe;
+}
+.third #mytable2{
+border-top: 7px solid #9baff1;
+border-bottom: 7px solid #9baff1;
+margin: 20px;
+}
+.third #mytable2 th,.third #mytable2 td {
+	border-right: 1px solid #aabcfe;
+border-left: 1px solid #aabcfe;
+border-bottom: none;
+}
+.third #mytable2 th{background: #e8edff;}
+/*---------------------------------four-----------------------------------*/
+.four #mytable2{display:none;}
+.four .mytable tbody td{
+color: #669;
+padding: 10px 30px;
+}
+.four .mytable thead th{
+font-size: 20px;
+font-weight: normal;
+color: #039;
+padding: 10px 30px;
+text-align: left;
+}
+.four .mytable .odd {
+background: #e8edff;
+}
+/*-----------------------------------five-------------------------------------*/
+.five #mytable2{display:none;}
+.five .mytable thead th{
+font-size: 20px;
+border-right: 1px solid #fff;
+border-left: 1px solid #fff;
+color: #039;
+padding: 12px 15px;
+text-align:left;
+}
+.five .mytable tbody td{
+border-right: 1px solid #fff;
+border-left: 1px solid #fff;
+color: #669;
+padding: 8px 15px;
+}
+.five .vzebra-even{background-color:pink;}
+/*-----------------------------------six---------------------------------------*/
+.six #mytable2{display:none;}
+.six .mytable thead th{
+font-size: 20px;
+border-right: 1px solid #fff;
+border-left: 1px solid #fff;
+color: #039;
+padding: 20px;
+text-align: left;
+}
+.six .mytable tbody td{
+border-top: 1px solid #e8edff;
+color: #669;
+padding: 20px;
+}
+.six #mytable1 tbody tr:hover {
+background:url(images/back.png);
+}
+.six .first{background-color: pink;}
+/*--------------------------------------seven------------------------------------*/
+.seven table{
+	border: 1px solid #69c;
+}
+.seven tfoot tr td{
+	color: #669;
+	font-size:20px;
+	border-top:1px solid #69c;
+
+}
+.seven .mytable th{
+font-size: 20px;
+font-weight: normal;
+color: #039;
+padding: 10px 50px 10px 0px;	
+}
+.seven #mytable1 th {
+border-bottom: 1px dashed #69c;
+}
+.seven .mytable tbody td{
+padding: 10px 50px 10px 20px;
+color: #669;
+text-align: left;
+}
+.seven #mytable1 tbody tr:hover {
+background:url(images/back.png);
+}
+.seven #mytable2{
+	border: 1px solid #6cf;
+}
+.seven #mytable2 th{
+text-transform: uppercase;
+border-right: 1px solid #0865c2;
+border-top: 1px solid #0865c2;
+border-left: 1px solid #0865c2;
+border-bottom: 1px solid #fff;
+padding: 20px;
+}
+.seven #mytable2 tbody td{
+	border-right: 1px dashed #6cf;
+} 
+/*-------------------------------eight---------------------------*/
+.eight .mytable th{
+font-size: 20px; 
+font-weight: normal;
+background: rgba(248, 195, 160, 1.61);
+border-bottom: 1px solid #fff;
+color: #039;
+padding: 10px 30px 10px 30px;
+}
+.eight .mytable tbody  td {
+background: rgba(247, 216, 197, 1);
+border-bottom: 1px solid #fff;
+color: #669;
+border-top: 1px solid transparent;
+padding: 10px 30px 10px 30px;
+}
+/*#mytable1 tbody tr:hover td{
+background-color: rgba(240, 169, 123, 1);
+}*/
+.eight #mytable2{
+display:none;
+}
+.eight #mytable1 thead th.roundedleft{
+background:rgba(248, 195, 160, 1.61) url("images/left.png") left -1px no-repeat;
+}
+.eight #mytable1 thead th.roundedright{
+background:rgba(248, 195, 160, 1.61) url("images/right.png") right -1px no-repeat;
+}
+.eight #mytable1 tbody .bot td.roundedleft{
+background:rgba(247, 216, 197, 1) url("images/botleft.png") left bottom -1px no-repeat;
+}
+.eight #mytable1 tbody .bot td.roundedright{
+background:rgba(247, 216, 197, 1) url("images/botright.png") right bottom  no-repeat;
+}
+/*----------------------------------------nine-----------------------------------------------*/
+.nine #mytable2{display:none;}
+
+.nine #mytable1{
+border-collapse: collapse;
+
+}
+.nine .mytable th {
+font-size: 20px;
+font-weight: normal;
+color: #039;
+border-bottom: 1px solid #fff;
+padding: 10px 50px 10px 0px;
+text-align: left;
+}
+.nine .mytable tbody td{
+	background:url(images/back.png);
+	padding: 10px 50px 10px 0px;
+	color: #669;
+	border-bottom: 1px solid #fff;
+}
+.nine .mytable tbody tr:hover td{
+background:transparent;
+}
+.nine #mytable1{
+	background: url(images/ima3.png) 647px 10px no-repeat;
+width: 824px;}
+}
+/*--------------------------------------ten-------------------------------------------------*/
+.ten #mytable2{display:none;}
+.ten #mytable1{
+border-collapse: collapse;
+background: url("images/ima1.jpg");
+}
+.ten .mytable th {
+font-size: 20px;
+font-weight: normal;
+color: #039;
+border-bottom: 1px solid #fff;
+padding: 10px 50px 10px 0px;
+}
+.ten .mytable tbody td{
+	padding: 10px 50px 10px 0px;
+	color: #669;
+	border-bottom: 1px solid #fff;
+}
+.ten .mytable tbody tr:hover td{
+background-color:skyblue;
+}
